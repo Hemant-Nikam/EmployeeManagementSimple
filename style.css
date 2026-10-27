@@ -1,0 +1,24 @@
+.addEmployee{
+    background-color: aquamarine;
+    height: 400px;
+    
+}
+#message{
+    background-color: rgb(223, 136, 136);
+}
+body{
+    background-color: rgb(133, 165, 213);
+}
+#empList{
+    background-color: rgb(166, 113, 216);
+}
+#addEmp{
+    height: 50px;
+    background-color: aqua;
+    border: 2px;
+}
+#leaveIDS
+{
+    background-color: rgb(211, 21, 154);
+    min-height: 20px;
+}

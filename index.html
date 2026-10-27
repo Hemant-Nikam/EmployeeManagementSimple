@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="addEmployee">
+            <form id="addEmp">
+
+                <label for="name">Name Of Employee</label>
+                <input type="text" id="name">
+
+                <label for="salary">Basic Salary</label>
+                <input type="text" id="salary">
+
+            </form>
+            <button id="addBtn">Add Employee</button>
+
+            <p id="empList">
+            </p>
+        </div>
+
+        <div class="applyLeave">
+            <form id="applyL">
+
+                <label for="empIdL">Employee Id</label>
+                <input type="text" id="empIdL">
+
+                <label for="start">Start Date (Inclusive) </label>
+                <input type="text" id="start">
+
+                <label for="end">End Date (Inclusive) </label>
+                <input type="text" id="end">
+
+            </form>
+            <button id="leaveBtn">Apply For Leave</button>
+        </div>
+
+        <div class="cancelLeave">
+            <form id="cancelL">
+
+                <label for="leaveId">Enter Leave Id</label>
+                <input type="text" id="leaveId">
+
+            </form>
+            <button id="leaveCBtn">Cancel Leave</button>
+        </div>
+
+        <div class="overTime">
+            <form id="overT">
+
+                <label for="empIdO">Enter Employee Id</label>
+                <input type="text" id="empIdO">
+
+                <label for="hours">Enter Overtime Hours</label>
+                <input type="text" id="hours">
+
+            </form>
+            <button id="overBtn">Add OverTime</button>
+        </div>
+
+        <div class="salary">
+            <form id="salaryId">
+
+                <label for="empIdS">Enter Employee Id</label>
+                <input type="text" id="empIdS">
+
+            </form>
+            <button id="salaryBtn">Get Salary</button>
+        </div>
+
+        <div class="mess">
+            <p id="message">
+            </p>
+        </div>
+
+
+        <div>
+            <p id="leaveIDS">
+            </p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
